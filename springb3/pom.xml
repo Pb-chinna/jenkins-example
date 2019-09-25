@@ -11,11 +11,15 @@
 		<version>1.5.8.RELEASE</version>
 	</parent>
 	<dependencies>
+		<!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-web</artifactId> 
+			</dependency> -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+			<version>2.1.8.RELEASE</version>
 		</dependency>
-		
+
+
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
@@ -33,16 +37,16 @@
 		<pluginManagement>
 			<plugins>
 				<plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.3</version>
-                <configuration>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.3</version>
+					<configuration>
 						<source>1.8</source>
 						<target>1.8</target>
 						<fork>true</fork>
 						<executable>C:\Program Files\Java\jdk1.8.0_162\bin\javac</executable>
 					</configuration>
-            </plugin>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
